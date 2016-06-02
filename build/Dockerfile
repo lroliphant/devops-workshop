@@ -24,4 +24,4 @@ RUN bundle install
 
 # Set the default command to execute
 # when creating a new container
-CMD curl http://unicorn.herouapp.com/update/scuzzbuckets/complete
+CMD curl http://unicorn.herokuapp.com/update/scuzzbuckets/complete
