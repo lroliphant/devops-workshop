@@ -1,5 +1,5 @@
 # Set the base operating system image (iron/ruby is a minimalist ruby base image)
-FROM iron/rubygems
+FROM iron/ruby
 
 # File Author / Maintainer
 MAINTAINER Lucy Oliphant lucyroseoliphant@gmail.com
