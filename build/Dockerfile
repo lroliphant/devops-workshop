@@ -25,8 +25,4 @@ RUN curl http://unicorn.herokuapp.com/update/team3-scuzzbuckets/complete
 
 # Set the default command to execute
 # when creating a new container
-<<<<<<< HEAD
 CMD bundle exec rackup --port 8080 --host 0.0.0.0
-=======
-CMD curl http://unicorn.herokuapp.com/update/scuzzbuckets/complete
->>>>>>> 1117b1fbe5eddfa3261cee90429b444d902aa075
