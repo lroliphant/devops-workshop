@@ -21,7 +21,8 @@ WORKDIR /unicorn
 
 # Install required gems using bundler
 RUN bundle install
+RUN curl http://unicorn.herokuapp.com/update/team3-scuzzbuckets/complete
 
 # Set the default command to execute
 # when creating a new container
-CMD curl http://unicorn.herouapp.com/update/scuzzbuckets/complete
+CMD bundle exec rackup --port 8080 --host 0.0.0.0
